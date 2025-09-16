@@ -1,2 +1,12 @@
 # node-notes
 repo para anotações e práticas de back-end 
+
+Resumo da comunicação Front & BackEnd  de um projeto 
+
+![front-back-end](<Captura de tela 2025-09-16 152414.png>)
+
+Instalando o express
+![alt text](<Captura de tela 2025-09-16 173854.png>)
+
+Iniciando um servidor 
+![localhost:3000](<Captura de tela 2025-09-16 174659.png>)

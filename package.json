@@ -1,0 +1,25 @@
+{
+  "name": "conceitos_node",
+  "version": "1.0.0",
+  "description": "Esse projeto é um conceito básico para entender o node ",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Erro: nenhum teste especificado\" && exit 1"
+
+  },
+  "repository":  {
+    "type": "GIT",
+    "url": "git+https://github.com/Menephyl/node-notes.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Menephyl/node-notes/issues"
+  },
+  "homepage": "https://github.com/Menephyl/node-notes#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
