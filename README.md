@@ -18,3 +18,5 @@ Códigos HTTPS DE RESPOSTAS DO FRONT END E BACK END
 tomar muito cuidado quando usar route params e query params com a sintaxe.  
 
 LEMBRAR DE LER AS DOCUMENTAÇÕES PARA TER PISTAS DE COMO RESOLVER ESSES PROBLEMAS 
+
+os comandos http get, post e afins acabam se relacionando para de fato manusear dados, entao é importante lembrar esssa relaçao ao trabalhar com o back end de uma aplicação
