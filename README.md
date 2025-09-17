@@ -13,3 +13,8 @@ Iniciando um servidor
 
 Códigos HTTPS DE RESPOSTAS DO FRONT END E BACK END 
 ![RESPOSTAS HTTP](image.png)
+
+
+tomar muito cuidado quando usar route params e query params com a sintaxe.  
+
+LEMBRAR DE LER AS DOCUMENTAÇÕES PARA TER PISTAS DE COMO RESOLVER ESSES PROBLEMAS 

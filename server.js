@@ -12,23 +12,25 @@ import express from 'express'
 // cada alteração, precisa atualizar no terminal 
 
 */
-import express, { request, response } from 'express'
+import express from 'express'
 
 const app = express()
-app.use(express.json)
+app.use(express.json())
 
-app.get('/usuarios', (request, response) => {
-    console.log(request)
 
-    response.send('ANTEDEGUEMON! ')
+app.get('/usuarios', (req, res) => {
+    console.log(req.query)
+    res.send('ANTEDEGUEMON!')
 })
 
-app.post('/usuarios',(req,res)=>{
-console.log(req.body)
+app.post('/usuarios', (req, res) => {
+    console.log(req.body)
     res.send('gostosa')
 })
 
-app.listen(3000)
+app.listen(3000,()=> {
+    console.log('servidor rodando na porta 3000')
+} )
 
 
 
