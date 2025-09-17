@@ -24,3 +24,19 @@ os comandos http get, post e afins acabam se relacionando para de fato manusear 
 banco de dados mongodb -> ajuda a criar rapidamente e mais eficentemente.
 prisma.io -> biblioteca para facilitar essa comunição e serviço do mongoDB
 há dados que envolvem essas ferramentas e tecnologias que serão necessárias apenas durante o desenvolvimento, quando prontos, nem todos os arquivos precisam ir junto. ( isso é relacionado ao devdependencies)
+
+
+como puxar nossas informações no banco de dados 
+
+
+um terminal pro server.js outro pro prisma studio 
+
+
+await ( funções assincronas ) = promisse (quando o servidor retornar uma resposta faça a continuação )
+
+uma boa prática 
+
+![const user](image-1.png)
+
+
+- Salvar usuário no banco → Persistir dados no arquivo.
