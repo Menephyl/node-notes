@@ -7,9 +7,8 @@
   "scripts": {
     "start": "node server.js",
     "test": "echo \"Erro: nenhum teste especificado\" && exit 1"
-
   },
-  "repository":  {
+  "repository": {
     "type": "GIT",
     "url": "git+https://github.com/Menephyl/node-notes.git"
   },
@@ -20,6 +19,10 @@
   },
   "homepage": "https://github.com/Menephyl/node-notes#readme",
   "dependencies": {
+    "@prisma/client": "^6.16.2",
     "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "prisma": "^6.16.2"
   }
 }

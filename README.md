@@ -20,3 +20,7 @@ tomar muito cuidado quando usar route params e query params com a sintaxe.
 LEMBRAR DE LER AS DOCUMENTAÇÕES PARA TER PISTAS DE COMO RESOLVER ESSES PROBLEMAS 
 
 os comandos http get, post e afins acabam se relacionando para de fato manusear dados, entao é importante lembrar esssa relaçao ao trabalhar com o back end de uma aplicação
+
+banco de dados mongodb -> ajuda a criar rapidamente e mais eficentemente.
+prisma.io -> biblioteca para facilitar essa comunição e serviço do mongoDB
+há dados que envolvem essas ferramentas e tecnologias que serão necessárias apenas durante o desenvolvimento, quando prontos, nem todos os arquivos precisam ir junto. ( isso é relacionado ao devdependencies)
