@@ -26,15 +26,19 @@ app.get('/usuarios', async (req, res) => {
     res.status(200).json(users)
 })
 
-app.post('/usuarios', async (req, res) => {
-    await prisma.user.create({
+app.put('/usuarios/:id', async (req, res) => {
+  
+   const user =  await prisma.user.update({
+    where:{
+        id:  req.params.id
+    },
         data: {
             email: req.body.email,
             age: req.body.age,
             name: req.body.name
         }
     })
-    res.status(201).json({ message: "Usuário criado com sucesso" })  // express ja modifica segundo o padrão e envia automaticamente 
+    res.status(201).json(user)  // express ja modifica segundo o padrão e envia automaticamente 
 
 })
 
