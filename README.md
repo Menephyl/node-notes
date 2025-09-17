@@ -10,3 +10,6 @@ Instalando o express
 
 Iniciando um servidor 
 ![localhost:3000](<Captura de tela 2025-09-16 174659.png>)
+
+Códigos HTTPS DE RESPOSTAS DO FRONT END E BACK END 
+![RESPOSTAS HTTP](image.png)
