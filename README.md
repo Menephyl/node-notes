@@ -1,4 +1,4 @@
-# node-notes
+# BACK END NOTES 
 repo para anotações e práticas de back-end 
 
 Resumo da comunicação Front & BackEnd  de um projeto 
@@ -90,3 +90,4 @@ app.listen(3000, () => {
 📌 Resumo:
 Você já tem um mini CRUD começando a tomar forma — já consegue listar e criar usuários no banco via Prisma.
 
+![crud](image-2.png)
