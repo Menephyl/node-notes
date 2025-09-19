@@ -91,3 +91,6 @@ app.listen(3000, () => {
 Você já tem um mini CRUD começando a tomar forma — já consegue listar e criar usuários no banco via Prisma.
 
 ![crud](image-2.png)
+
+
+CORS 
