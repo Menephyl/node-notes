@@ -83,7 +83,7 @@ uma boa prática
 
 ![const user](image-1.png)
 
-
+![alt text](image-3.png)
 - Salvar usuário no banco → Persistir dados no arquivo. 
 foi basicamente montar o esqueleto de uma API REST simples usando Express e Prisma para manipular dados de usuários no banco.
 🔹 1. Configuração inicial
